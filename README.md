@@ -1,7 +1,7 @@
 <!-- <img src="https://media4.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="150"> -->
 <h1 align="center">Hi , I'm Lucas Sousa Rosa <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
-  <a href="https://github.com/hassanahmadp"><img src="https://readme-typing-svg.herokuapp.com?lines=MERN-stack+Developer;NextJS-13%20Developer;Aspiring%20Web3,%20Metaverse%20and%20AI%20Engineer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+  <a href="https://github.com/lucassr-dev"><img src="https://readme-typing-svg.herokuapp.com?lines=MERN-stack+Developer;NextJS-15%20Developer;Aspiring%20FullStack,%20DevOps%20and%20AI%20Engineer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 
 <br>
