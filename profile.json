@@ -1,0 +1,108 @@
+{
+  "login": "lucassr-dev",
+  "accents": ["mauve", "pink", "peach"],
+  "hero": {
+    "name": "Lucas Sousa Rosa",
+    "role": "Engenheiro de software full-stack",
+    "eyebrow": "curitiba, pr · utc−3",
+    "tagline": [
+      "Produto de ponta a ponta: da interface ao banco,",
+      "com testes, automação e um terminal bem afiado."
+    ],
+    "pills": ["react", "typescript", "laravel", "nestjs"],
+    "terminalTitle": "fish — ~/lucassr-dev",
+    "terminal": [
+      { "cmd": "whoami" },
+      { "out": [["lucas", "accent"], [" · full-stack em crédito e banking", "text"]] },
+      { "cmd": "ls ~/personal" },
+      { "out": [["brutusforge/", "accent2"], ["  ", "text"], ["dotfiles/", "accent2"], ["  ", "text"], ["lucassr.dev/", "accent2"]] },
+      { "cmd": "brutusforge --status" },
+      { "out": [["✓ ", "green"], ["5 jogos · loja · painel · bot", "text"]] },
+      { "out": [["✓ ", "green"], ["plugins c++ para servidores ark", "text"]] }
+    ]
+  },
+  "projects": [
+    {
+      "id": "brutusforge",
+      "wide": true,
+      "repo": "lucassr-dev/brutusforge-releases",
+      "url": "https://github.com/lucassr-dev/brutusforge-releases",
+      "title": "BrutusForge",
+      "monogram": "BF",
+      "kicker": "plataforma para servidores de jogo",
+      "badge": "release",
+      "accent": 0,
+      "description": "Site, loja, painel de administração, bot de Discord e plugins para servidores de jogo, num pacote só. Cobre 5 jogos, com automações por evento, pagamentos via Stripe e Mercado Pago, ranking, sorteios e banimento centralizado.",
+      "tags": ["nestjs", "next.js", "prisma", "postgresql", "discord", "c++"]
+    },
+    {
+      "id": "dotfiles",
+      "repo": "lucassr-dev/dotfiles",
+      "url": "https://github.com/lucassr-dev/dotfiles",
+      "title": "dotfiles",
+      "monogram": "~/",
+      "kicker": "linux · macos · windows",
+      "badge": "stars",
+      "accent": 1,
+      "description": "Um comando monta a máquina de desenvolvimento inteira: shells, temas, runtimes, CLI, apps e Neovim. Retoma de onde parou e faz backup do que sobrescreve.",
+      "tags": ["bash", "fish", "neovim", "mise"]
+    },
+    {
+      "id": "site",
+      "repo": "lucassr-dev/lucassr.dev",
+      "url": "https://www.lucassr.dev",
+      "title": "lucassr.dev",
+      "monogram": "LS",
+      "kicker": "portfólio",
+      "badge": "stars",
+      "accent": 2,
+      "description": "Meu site pessoal, com projetos, trajetória e artigos. Feito em Next.js e Tailwind, com tema claro e escuro.",
+      "tags": ["next.js", "react", "tailwind", "vercel"]
+    }
+  ],
+  "stack": [
+    {
+      "label": "Frontend",
+      "items": [
+        { "name": "React", "icon": "react" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "Next.js", "icon": "nextdotjs" },
+        { "name": "Vite", "icon": "vite" },
+        { "name": "Tailwind", "icon": "tailwindcss" },
+        { "name": "Framer Motion", "icon": "framer" }
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        { "name": "Laravel", "icon": "laravel" },
+        { "name": "PHP", "icon": "php" },
+        { "name": "NestJS", "icon": "nestjs" },
+        { "name": "Node.js", "icon": "nodedotjs" },
+        { "name": "Prisma", "icon": "prisma" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "MySQL", "icon": "mysql" }
+      ]
+    },
+    {
+      "label": "Qualidade",
+      "items": [
+        { "name": "Playwright" },
+        { "name": "Vitest", "icon": "vitest" },
+        { "name": "GitHub Actions", "icon": "githubactions" }
+      ]
+    },
+    {
+      "label": "Infra & dev",
+      "items": [
+        { "name": "Docker", "icon": "docker" },
+        { "name": "Linux", "icon": "linux" },
+        { "name": "Proxmox", "icon": "proxmox" },
+        { "name": "Bash", "icon": "gnubash" },
+        { "name": "Fish", "icon": "fishshell" },
+        { "name": "Neovim", "icon": "neovim" },
+        { "name": "C++", "icon": "cplusplus" }
+      ]
+    }
+  ]
+}
