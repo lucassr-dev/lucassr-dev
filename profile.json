@@ -3,17 +3,17 @@
   "accents": ["mauve", "pink", "peach"],
   "hero": {
     "name": "Lucas Sousa Rosa",
-    "role": "Engenheiro de software full-stack",
+    "role": "Desenvolvedor front-end · atuação full-stack",
     "eyebrow": "curitiba, pr · utc−3",
     "tagline": [
-      "Produto de ponta a ponta: da interface ao banco,",
-      "com testes, automação e um terminal bem afiado."
+      "Da interface à API: React e TypeScript na frente,",
+      "Laravel e NestJS atrás, testes no pipeline."
     ],
     "pills": ["react", "typescript", "laravel", "nestjs"],
     "terminalTitle": "fish — ~/lucassr-dev",
     "terminal": [
       { "cmd": "whoami" },
-      { "out": [["lucas", "accent"], [" · full-stack em crédito e banking", "text"]] },
+      { "out": [["lucas", "accent"], [" · front-end + back-end em crédito e banking", "text"]] },
       { "cmd": "ls ~/personal" },
       { "out": [["brutusforge/", "accent2"], ["  ", "text"], ["dotfiles/", "accent2"], ["  ", "text"], ["lucassr.dev/", "accent2"]] },
       { "cmd": "brutusforge --status" },

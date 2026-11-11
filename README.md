@@ -1,7 +1,7 @@
 <a href="https://www.lucassr.dev">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucassr-dev/lucassr-dev/output/hero-dark.svg">
-    <img alt="Lucas Sousa Rosa — engenheiro de software full-stack" src="https://raw.githubusercontent.com/lucassr-dev/lucassr-dev/output/hero-light.svg" width="100%">
+    <img alt="Lucas Sousa Rosa — desenvolvedor front-end com atuação full-stack" src="https://raw.githubusercontent.com/lucassr-dev/lucassr-dev/output/hero-light.svg" width="100%">
   </picture>
 </a>
 
@@ -13,9 +13,10 @@
 
 ### Sobre
 
-- Trabalho com produtos de **crédito digital e banking**: interface em React e TypeScript, API em Laravel, testes com Playwright e Vitest.
+- Desenvolvedor front-end na **Humu** desde maio de 2026, atuando também no back-end em produtos de **crédito digital e banking**: React e TypeScript na interface, Laravel na API, testes com Playwright e Vitest.
 - Fora do expediente construo o **BrutusForge**, uma plataforma completa para comunidades de servidores de jogo.
 - Gosto de ferramenta bem afiada: meus **dotfiles** montam uma máquina de desenvolvimento inteira em Linux, macOS e Windows com um comando.
+- Formado em Análise e Desenvolvimento de Sistemas pela Estácio (2023).
 
 ### Atividade
 
