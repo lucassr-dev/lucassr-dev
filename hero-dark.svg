@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Lucas Sousa Rosa — Desenvolvedor front-end · atuação full-stack</title>
+<desc id="desc">Desenvolvedor front-end · atuação full-stack Da interface à API: React e TypeScript na frente, Laravel e NestJS atrás, testes no pipeline.</desc>
+<style>
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+.rise{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+.fade{animation:fade .5s ease-out both}
+.pop{animation:pop .5s cubic-bezier(.3,1.4,.5,1) both;transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+@keyframes drift1{0%{transform:translate(0,0) scale(1)}100%{transform:translate(90px,40px) scale(1.15)}}
+@keyframes drift2{0%{transform:translate(0,0) scale(1.1)}100%{transform:translate(-110px,-30px) scale(.95)}}
+@keyframes drift3{0%{transform:translate(0,0)}100%{transform:translate(-60px,70px) scale(1.2)}}
+@keyframes shine{0%{transform:translateX(0)}28%,100%{transform:translateX(820px)}}
+@keyframes shown{0%,100%{opacity:1}}
+.blob{transform-box:fill-box;transform-origin:center}
+.b1{animation:drift1 17s ease-in-out infinite alternate}
+.b2{animation:drift2 21s ease-in-out infinite alternate}
+.b3{animation:drift3 19s ease-in-out infinite alternate}
+.cur{opacity:0}
+.shine{animation:shine 7s cubic-bezier(.4,0,.2,1) 1.6s infinite}
+@keyframes type0{from{transform:translateX(0)}to{transform:translateX(54px)}}
+@keyframes type2{from{transform:translateX(0)}to{transform:translateX(117px)}}
+@keyframes type4{from{transform:translateX(0)}to{transform:translateX(180px)}}</style>
+<defs>
+<clipPath id="frame"><rect width="1200" height="440" rx="24"/></clipPath>
+<clipPath id="termclip"><rect x="652" y="93" width="500" height="295" rx="14"/></clipPath>
+<radialGradient id="g0"><stop offset="0" stop-color="#cba6f7" stop-opacity="0.42"/><stop offset="1" stop-color="#cba6f7" stop-opacity="0"/></radialGradient><radialGradient id="g1"><stop offset="0" stop-color="#f5c2e7" stop-opacity="0.42"/><stop offset="1" stop-color="#f5c2e7" stop-opacity="0"/></radialGradient><radialGradient id="g2"><stop offset="0" stop-color="#fab387" stop-opacity="0.42"/><stop offset="1" stop-color="#fab387" stop-opacity="0"/></radialGradient>
+<linearGradient id="name" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="580" y2="0">
+<stop offset="0" stop-color="#cba6f7"/><stop offset=".55" stop-color="#f5c2e7"/><stop offset="1" stop-color="#fab387"/>
+</linearGradient>
+<linearGradient id="shinegrad"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#6c7086" fill-opacity="0.35"/></pattern>
+<radialGradient id="fadeg" cx=".3" cy=".4" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="fadem"><rect width="1200" height="440" fill="url(#fadeg)"/></mask>
+<mask id="namemask"><text x="64" y="186" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI Variable Display','Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#fff">Lucas Sousa Rosa</text></mask>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.45"/></filter></defs>
+<g clip-path="url(#frame)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI Variable Display','Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif">
+<rect width="1200" height="440" fill="#1e1e2e"/>
+<ellipse class="blob b1" cx="230" cy="110" rx="380" ry="260" fill="url(#g0)"/>
+<ellipse class="blob b2" cx="1010" cy="380" rx="420" ry="280" fill="url(#g1)"/>
+<ellipse class="blob b3" cx="700" cy="20" rx="320" ry="220" fill="url(#g2)"/>
+<rect width="1200" height="440" fill="url(#dots)" mask="url(#fadem)"/>
+<g class="rise" style="animation-delay:0.1s">
+<circle cx="70" cy="112" r="4.5" fill="#a6e3a1" style="animation:pulse 2.4s ease-in-out infinite"/>
+<text x="84" y="117" font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="14" fill="#7f849c">curitiba, pr · utc−3</text>
+</g>
+<g class="rise" style="animation-delay:0.2s">
+<text x="64" y="186" font-size="58" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Lucas Sousa Rosa</text>
+<g mask="url(#namemask)"><rect class="shine" x="-200" y="120" width="160" height="90" fill="url(#shinegrad)"/></g>
+</g>
+<text class="rise" style="animation-delay:0.35s" x="64" y="228" font-size="22" font-weight="600" fill="#bac2de">Desenvolvedor front-end · atuação full-stack</text>
+<g class="rise" style="animation-delay:0.5s"><text x="64" y="266" font-size="17" fill="#a6adc8">Da interface à API: React e TypeScript na frente,</text><text x="64" y="292" font-size="17" fill="#a6adc8">Laravel e NestJS atrás, testes no pipeline.</text></g>
+<g class="pop" style="animation-delay:1.1s">
+<rect x="64" y="322" width="67" height="32" rx="16" fill="#36314a" stroke="#6c5b88"/>
+<text x="97.5" y="343" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#cdd6f4">react</text>
+</g>
+<g class="pop" style="animation-delay:1.18s">
+<rect x="141" y="322" width="106" height="32" rx="16" fill="#3c3548" stroke="#7f6881"/>
+<text x="194" y="343" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#cdd6f4">typescript</text>
+</g>
+<g class="pop" style="animation-delay:1.26s">
+<rect x="257" y="322" width="82.6" height="32" rx="16" fill="#3d333a" stroke="#816156"/>
+<text x="298.3" y="343" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#cdd6f4">laravel</text>
+</g>
+<g class="pop" style="animation-delay:1.34s">
+<rect x="349.6" y="322" width="74.8" height="32" rx="16" fill="#36314a" stroke="#6c5b88"/>
+<text x="387" y="343" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#cdd6f4">nestjs</text>
+</g>
+<g font-family="ui-monospace,'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="15"><g class="rise" style="animation-delay:0.35s">
+<rect x="652" y="52" width="500" height="336" rx="14" fill="#181825" filter="url(#shadow)"/>
+<rect x="652.5" y="52.5" width="499" height="335" rx="13.5" stroke="#45475a" stroke-opacity=".9"/>
+<path d="M652 92h500" stroke="#313244"/>
+<circle cx="674" cy="72" r="6" fill="#f38ba8"/>
+<circle cx="694" cy="72" r="6" fill="#f9e2af"/>
+<circle cx="714" cy="72" r="6" fill="#a6e3a1"/>
+<text x="902" y="77" text-anchor="middle" font-size="13" fill="#7f849c">fish — ~/lucassr-dev</text>
+</g><g clip-path="url(#termclip)"><g class="fade" style="animation-delay:0.85s">
+<text x="674" y="132" fill="#cba6f7">❯</text>
+<text xml:space="preserve" style="white-space:pre" x="692" y="132" fill="#cdd6f4" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
+<g style="transform:translateX(54px);animation:type0 0.3s steps(6) 1s both">
+<rect x="692" y="115" width="500" height="29" fill="#181825"/>
+<rect class="cur" x="692" y="118" width="9" height="18" fill="#cba6f7" style="animation:shown 0.6s step-end 1s"/>
+</g>
+</g>
+<g class="rise" style="animation-delay:1.65s"><text xml:space="preserve" style="white-space:pre" x="674" y="161" fill="#cba6f7" textLength="45" lengthAdjust="spacingAndGlyphs">lucas</text><text xml:space="preserve" style="white-space:pre" x="719" y="161" fill="#cdd6f4" textLength="396" lengthAdjust="spacingAndGlyphs"> · front-end + back-end em crédito e banking</text></g>
+<g class="fade" style="animation-delay:2.09s">
+<text x="674" y="190" fill="#cba6f7">❯</text>
+<text xml:space="preserve" style="white-space:pre" x="692" y="190" fill="#cdd6f4" textLength="117" lengthAdjust="spacingAndGlyphs">ls ~/personal</text>
+<g style="transform:translateX(117px);animation:type2 0.65s steps(13) 2.24s both">
+<rect x="692" y="173" width="500" height="29" fill="#181825"/>
+<rect class="cur" x="692" y="176" width="9" height="18" fill="#cba6f7" style="animation:shown 0.95s step-end 2.24s"/>
+</g>
+</g>
+<g class="rise" style="animation-delay:3.24s"><text xml:space="preserve" style="white-space:pre" x="674" y="219" fill="#f5c2e7" textLength="108" lengthAdjust="spacingAndGlyphs">brutusforge/</text><text xml:space="preserve" style="white-space:pre" x="782" y="219" fill="#cdd6f4" textLength="18" lengthAdjust="spacingAndGlyphs">  </text><text xml:space="preserve" style="white-space:pre" x="800" y="219" fill="#f5c2e7" textLength="81" lengthAdjust="spacingAndGlyphs">dotfiles/</text><text xml:space="preserve" style="white-space:pre" x="881" y="219" fill="#cdd6f4" textLength="18" lengthAdjust="spacingAndGlyphs">  </text><text xml:space="preserve" style="white-space:pre" x="899" y="219" fill="#f5c2e7" textLength="108" lengthAdjust="spacingAndGlyphs">lucassr.dev/</text></g>
+<g class="fade" style="animation-delay:3.68s">
+<text x="674" y="248" fill="#cba6f7">❯</text>
+<text xml:space="preserve" style="white-space:pre" x="692" y="248" fill="#cdd6f4" textLength="180" lengthAdjust="spacingAndGlyphs">brutusforge --status</text>
+<g style="transform:translateX(180px);animation:type4 1s steps(20) 3.83s both">
+<rect x="692" y="231" width="500" height="29" fill="#181825"/>
+<rect class="cur" x="692" y="234" width="9" height="18" fill="#cba6f7" style="animation:shown 1.3s step-end 3.83s"/>
+</g>
+</g>
+<g class="rise" style="animation-delay:5.18s"><text xml:space="preserve" style="white-space:pre" x="674" y="277" fill="#a6e3a1" textLength="18" lengthAdjust="spacingAndGlyphs">✓ </text><text xml:space="preserve" style="white-space:pre" x="692" y="277" fill="#cdd6f4" textLength="261" lengthAdjust="spacingAndGlyphs">5 jogos · loja · painel · bot</text></g>
+<g class="rise" style="animation-delay:5.32s"><text xml:space="preserve" style="white-space:pre" x="674" y="306" fill="#a6e3a1" textLength="18" lengthAdjust="spacingAndGlyphs">✓ </text><text xml:space="preserve" style="white-space:pre" x="692" y="306" fill="#cdd6f4" textLength="279" lengthAdjust="spacingAndGlyphs">plugins c++ para servidores ark</text></g>
+<g class="fade" style="animation-delay:5.46s">
+<text x="674" y="335" fill="#cba6f7">❯</text>
+<rect x="692" y="321" width="9" height="18" fill="#cba6f7" style="animation:blink 1.1s step-end 5.46s infinite"/>
+</g></g></g>
+<rect x=".5" y=".5" width="1199" height="439" rx="23.5" stroke="#45475a" stroke-opacity="0.7"/>
+</g>
+</svg>
